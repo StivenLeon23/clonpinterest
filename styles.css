@@ -5,7 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     display: flex;
     align-items: baseline;
     height: 30px;
@@ -25,20 +25,21 @@ nav {
     border-bottom: #e2e2e2;
 }
 
-.logos .imagenp:hover{
+.logos .imagenp:hover {
     padding: 15px;
     background-color: white;
     border-radius: 100px;
-    color:white ;
+    color: white;
 }
 
-.logos .imagenp{
+.logos .imagenp {
     padding: 15px;
     background-color: white;
     border-radius: 100px;
-    color:white ;
+    color: white;
 }
-.logos{
+
+.logos {
     width: 320px;
     list-style: none;
     display: flex;
@@ -47,57 +48,57 @@ nav {
     border-bottom: none;
 }
 
-.logos #pinterest-icon:hover{
+.logos #pinterest-icon:hover {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: #d0d0d0;
     padding: 10px;
-    color:#fff;
+    color: #fff;
 }
 
-.logos #pinterest-icon{
+.logos #pinterest-icon {
     width: 30px;
     height: 30px;
     cursor: pointer;
     padding: 10px;
-    }
+}
 
-  
-    
-.logos a:hover{
+
+
+.logos a:hover {
     padding: 15px;
     background-color: #111;
     border-radius: 100px;
-    color:#f0f0f0 ;
-} 
- 
-.logos a{
+    color: #f0f0f0;
+}
+
+.logos a {
     padding: 15Px;
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 600 ;
+    font-weight: 600;
     color: #211922;
-} 
+}
 
 
 
-.logos .imagenp{
-    color:none;
+.logos .imagenp {
+    color: none;
     background-color: none;
 }
 
-nav .buscador:hover{
+nav .buscador:hover {
     padding: 5px;
     height: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color:#f0f0f0 ;
+    color: #f0f0f0;
 }
 
-nav .buscador{
+nav .buscador {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -108,7 +109,7 @@ nav .buscador{
     padding-left: 5px;
 }
 
-nav .buscador .lupa:hover{
+nav .buscador .lupa:hover {
     padding: 7px;
     height: 5px;
     width: 5px;
@@ -120,7 +121,7 @@ nav .buscador .lupa:hover{
 }
 
 
-nav .buscador .lupa{
+nav .buscador .lupa {
     background-image: url(https://www.clker.com/cliparts/8/n/U/M/V/E/search-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -131,17 +132,17 @@ nav .buscador .lupa{
     justify-content: space-around;
 }
 
-.finder:hover{
+.finder:hover {
     padding: 5px;
     width: 750px;
     height: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-} 
+}
 
 
-.finder{
+.finder {
     padding: 5px;
     background: none;
     width: 750px;
@@ -155,24 +156,24 @@ nav .buscador .lupa{
     font-size: 18px;
 }
 
-nav .notificaciones{
+nav .notificaciones {
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-nav #notifications:hover{
+nav #notifications:hover {
     padding: 5px;
     width: 35px;
     height: 35px;
     background-color: #a5a5a5;
     border-radius: 50%;
     color: gray;
-} 
+}
 
 
-nav #notifications{
+nav #notifications {
     padding: 5px;
     width: 35px;
     height: 35px;
@@ -180,57 +181,57 @@ nav #notifications{
     color: gray;
 }
 
-nav #message:hover{
+nav #message:hover {
     padding: 10px;
     width: 30px;
     height: 30px;
     background-color: #a5a5a5;
     border-radius: 50%;
-    color: gray;
-} 
-
-nav #message{
-    padding: 10px;
-    width: 30px;
-    height: 30px; 
-    cursor: pointer; 
     color: gray;
 }
 
-nav #profile-img:hover{
+nav #message {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+nav #profile-img:hover {
     padding: 5px;
     width: 30px;
     height: 30px;
     background-color: #a5a5a5;
     border-radius: 50%;
-} 
+}
 
-nav #profile-img{
+nav #profile-img {
     padding: 5px;
     width: 30px;
     height: 30px;
-    border-radius: 50%;   
-    cursor: pointer; 
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 /* Main*/
 
-#content{
+#content {
     grid-column: 5;
-    columns: 5 250px; 
+    columns: 5 250px;
     margin: 20px;
     column-gap: 5px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-.card-image img:hover{
+.card-image img:hover {
     padding: 2px;
     background-color: #d0d0d0;
-} 
+}
 
 
-.card-image img{
+.card-image img {
     max-width: 250px;
     width: 300px;
     border-radius: 10px;
@@ -243,8 +244,8 @@ nav #profile-img{
 
 @media(max-width:600px) {
 
-    body{
+    body {
         background-color: #a5a5a5;
     }
-    
+
 }
